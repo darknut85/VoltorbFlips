@@ -1,0 +1,128 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="VoltorbFlip_Resources\Cell_Default.png" />
+    <None Remove="VoltorbFlip_Resources\Cell_Hover.png" />
+    <None Remove="VoltorbFlip_Resources\Cell_One.png" />
+    <None Remove="VoltorbFlip_Resources\Cell_Three.png" />
+    <None Remove="VoltorbFlip_Resources\Cell_Two.png" />
+    <None Remove="VoltorbFlip_Resources\Cell_Voltorb.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\0.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\1.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\2.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\3.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\4.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\5.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\6.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\7.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\8.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\BlackSmall\9.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\White\One_White.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\White\Three_White.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\White\Two_White.png" />
+    <None Remove="VoltorbFlip_Resources\Chars\White\Zero_White.png" />
+    <None Remove="VoltorbFlip_Resources\Gameboard_Clean.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\CellNotation\One.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\CellNotation\Three.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\CellNotation\Two.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\CellNotation\Voltorb.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\CloseMemo.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoBorderDefault.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoBorderHover.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\CloseHover.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\CloseSelected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\CloseUnselected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\MemoFieldBorderActive.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\MemoFieldBorderPassive.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\MemoField_Clean.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\OneSelected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\OneUnselected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\ThreeSelected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\ThreeUnselected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\TwoSelected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\TwoUnselected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\VoltorbSelected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\MemoField\VoltorbUnselected.png" />
+    <None Remove="VoltorbFlip_Resources\Memo\OpenMemo.png" />
+    <None Remove="VoltorbFlip_Resources\ScoreBoard1.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip1.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip2.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip_HintSymbolsBoard.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip_HintSymbolsBoard2.png" />
+    <None Remove="VoltorbFlip_Resources\Source Images\Voltorb_Flip_MemoField.png" />
+    <None Remove="VoltorbFlip_Resources\VoltorbFlip_Background.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\0.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\1.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\2.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\3.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\4.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\5.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\6.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\7.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\8.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\BlackSmall\9.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\White\One_White.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\White\Three_White.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\White\Two_White.png" />
+    <Resource Include="VoltorbFlip_Resources\Chars\White\Zero_White.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\CellNotation\One.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\CellNotation\Three.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\CellNotation\Two.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\CellNotation\Voltorb.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\CloseMemo.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoBorderDefault.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoBorderHover.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\CloseHover.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\CloseSelected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\CloseUnselected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\MemoFieldBorderActive.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\MemoFieldBorderPassive.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\MemoField_Clean.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\OneSelected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\OneUnselected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\ThreeSelected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\ThreeUnselected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\TwoSelected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\TwoUnselected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\VoltorbSelected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\MemoField\VoltorbUnselected.png" />
+    <Resource Include="VoltorbFlip_Resources\Memo\OpenMemo.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VoltorbFlip_Resources\Gameboard_Clean.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrbService\OrbService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="VoltorbFlip_Resources\Cell_Default.png" />
+    <Resource Include="VoltorbFlip_Resources\Cell_Hover.png" />
+    <Resource Include="VoltorbFlip_Resources\Cell_One.png" />
+    <Resource Include="VoltorbFlip_Resources\Cell_Three.png" />
+    <Resource Include="VoltorbFlip_Resources\Cell_Two.png" />
+    <Resource Include="VoltorbFlip_Resources\Cell_Voltorb.png" />
+    <Resource Include="VoltorbFlip_Resources\ScoreBoard1.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip1.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip2.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip_HintSymbolsBoard.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip_HintSymbolsBoard2.png" />
+    <Resource Include="VoltorbFlip_Resources\Source Images\Voltorb_Flip_MemoField.png" />
+    <Resource Include="VoltorbFlip_Resources\VoltorbFlip_Background.png" />
+  </ItemGroup>
+
+</Project>
